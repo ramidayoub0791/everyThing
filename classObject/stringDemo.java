@@ -2,7 +2,7 @@ package classObject;
 
 public class stringDemo {
     public static void main(String[] args) {
-        String str=new String("java");
+       String str=new String("java");
         //or often by another way :
         String str1="java ";
         System.out.println(str1.length());
@@ -14,6 +14,9 @@ public class stringDemo {
         if (name.length()>10){
             System.out.println("name can't be more tham 10 letters");
 
-        }
+            String s1="hello how are you";
+            System.out.println(s1.endsWith("u"));
+
+}
     }
 }

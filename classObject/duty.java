@@ -10,7 +10,7 @@ public class duty {
     if (!name.isEmpty()){
 
         if ((name.length()%2!=0)&&(name.length()>=3)) {
-            System.out.println(name.charAt((name.length()-1)/2));
+            System.out.println(name.charAt((name.length())/2));
         }
     }
     }

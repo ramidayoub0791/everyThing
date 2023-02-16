@@ -14,5 +14,11 @@ public class DogTester {
 
         Dog dog5=new Dog("wahsh","wawa","black",2, 1.0);
 
+
+        dog1.prinInfo();
+        dog2.prinInfo();
+        dog3.prinInfo();
+        dog4.prinInfo();
+        dog5.prinInfo();
 }
 }

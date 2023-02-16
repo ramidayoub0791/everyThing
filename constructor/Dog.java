@@ -14,5 +14,9 @@ public class Dog {
       age=dogAge;
       weight=dogWeight;
 
+
+        }
+    void prinInfo(){
+        System.out.println(name+" "+bread+" "+color+" "+age+" "+weight);
     }
 }
